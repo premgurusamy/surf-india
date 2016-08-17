@@ -220,11 +220,80 @@ header nav a:hover{
 
 }
 
+/*******----________Recent Videos Designs-----______********/
+
+.recent-videos-container{
+  width:80%;
+  height: 80%;
+  margin: 0 auto;
+  margin-bottom: 5em;
+}
+.recent-videos-container h2{
+font-weight: 300;
+text-align: center;
+color: #7E7E7E;
+letter-spacing: 0.1;
+width: 200px;
+border-bottom:1px solid #7e7e7e;
+margin: 0 auto;
+margin-bottom: 1em;
+padding:1em 0;
+
+}
+.video-list{
+  height: 80%;
+}
+.main-video{
+  float: left;
+  width: 60%;
+}
+.side-videos{
+  width: 30%;
+  height: 385px;
+  float: right;
+  overflow: auto;
+
+}
+.video-wrapper{
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.video-wrapper iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.all-videos-button{
+
+  background-color:#4CC8D8;
+  color: white;
+  padding:1em 1.5em;
+  font-weight: 300;
+}
+
+.recent-videos-container h5{
+  padding-top:5em;
+  text-align: center;
+  clear: both;
+}
+
+
+
+
+
 /******-______-----Footer Designs-----_____##
 ############################################*****/
 
 footer{
   background-color: #090404;
+  clear: both;
   overflow: auto;
 }
 .footer-container{
