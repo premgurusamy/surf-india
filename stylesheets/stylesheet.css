@@ -285,7 +285,78 @@ padding:1em 0;
 }
 
 
+/******-_____-----Testimonial Design ------_____
+#######_______---------------------########-----***/
 
+.testimonial-container{
+  width:100%;
+  height: 80%;
+  background-color:#4CC8D8;
+}
+
+.testimonial-content{
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+.testimonial-text{
+  width: 70%;
+
+}
+
+.testimonial-text blockquote{
+  font-family: Georgia, serif;
+  font-size: 1em;
+  font-style: italic;
+  margin: 0.25em 0;
+  padding: 0.25em 2em;
+  line-height: 1.5;
+  position: relative;
+  color: white;
+}
+
+.testimonial-text blockquote:before {
+display: block;
+content: open-quote;
+font-size: 80px;
+position: absolute;
+left: -20px;
+top: -25px;
+color: white;
+}
+
+.testimonial-text blockquote cite {
+color: white;
+font-size: 1em;
+display: block;
+margin-top: 2em;
+}
+
+.testimonial-text blockquote cite:before {
+content: "\2014 \2009";
+}
+
+.testimonial-image{
+  width: 35%;
+  height: 100%;
+  overflow-y:visible;
+  margin: 0 auto;
+
+  -webkit-box-shadow: -78px -1px 85px -11px rgba(0,0,0,0.1);
+  -moz-box-shadow: -78px -1px 85px -11px rgba(0,0,0,0.1);
+  box-shadow: -78px -1px 85px -11px rgba(0,0,0,0.1);
+
+}
+
+.testimonial-image img{
+
+  padding:0 3em;
+}
 
 
 /******-______-----Footer Designs-----_____##
