@@ -619,8 +619,8 @@ footer svg path:hover{
 }
 
 .detail-content{
-  width:70%;
-  
+  width:80%;
+
   padding-top:15em;
   padding-left: 2em;
 }
@@ -631,7 +631,7 @@ footer svg path:hover{
   font-weight: 400;
   font-family: "Slabo 27px";
   letter-spacing: 0.05em;
-  font-size: 2em;
+  font-size: 2.5em;
   margin-bottom: 0.5em;
 }
 
