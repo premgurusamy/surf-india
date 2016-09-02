@@ -405,8 +405,9 @@ content: "\2014 \2009";
 .newsletter-content input{
   width: 200px;
   height: 30px;
-  color: rgba(164, 164, 164, 0.5);
-
+  color: rgba(164, 164, 164, 0.8);
+  border: 1px solid rgb(189, 189, 189);
+  background-color: white;
 }
 
 .newsletter-book-1{
@@ -483,9 +484,9 @@ footer svg path:hover{
 
 	header {
     height: 100%;
-    background: url(asset/images/header-intro.jpg);
+    background: url(../images/header-intro.jpg);
     background-size:cover;
-	background-color:#2CBED1;
+	  background-color:#2CBED1;
 }
 
     .intro-content {
@@ -607,6 +608,40 @@ footer svg path:hover{
 .offer-content h5{
   text-align: center;
   margin-bottom: 1em;
+}
+
+/*******######Detail Section Design #####*******
+))))))))))))))))))))))))))))))))))))))))))))))))****/
+
+.detail-section{
+  background:url(../images/surf-detail-image.jpg);
+  height: 100%;
+}
+
+.detail-content{
+  width:70%;
+  
+  padding-top:15em;
+  padding-left: 2em;
+}
+
+.detail-content h2{
+
+  color:white;
+  font-weight: 400;
+  font-family: "Slabo 27px";
+  letter-spacing: 0.05em;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.detail-content p{
+  font-family: Roboto,Helvetica;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  font-size:1em;
+
 }
 
 }
