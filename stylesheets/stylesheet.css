@@ -20,6 +20,7 @@ a{
 }
 header {
     height: 100%;
+    background-color: rgba(9,136,155,0.9);
     background: url(../images/header-intro.jpg);
     background-size:cover;
 }
@@ -368,15 +369,31 @@ content: "\2014 \2009";
   margin-top:5em;
 }
 
+.newsletter-content{
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+
+}
 .stay-touch{
-  float: left;
-  width: 35%;
   align-content: center;
+  flex-grow: 1;
 }
 
-.newsletter-content{
-  width: 80%;
-  margin: 0 auto;
+.newsletter-book-1{
+  flex-grow: 1;
+  height: 100%;
+}
+
+.newsletter-book-2{
+  flex-grow: 2;
+}
+
+
+#newsletter{
+  flex-grow: 1;
+  flex-basis: 150px;
 }
 
 .newsletter-content h4{
@@ -393,7 +410,7 @@ content: "\2014 \2009";
 }
 
 .newsletter-book-1{
-  float: left;
+
 
 }
 .newsletter-content p{
