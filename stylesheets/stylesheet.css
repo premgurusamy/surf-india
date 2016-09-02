@@ -614,7 +614,7 @@ footer svg path:hover{
 ))))))))))))))))))))))))))))))))))))))))))))))))****/
 
 .detail-section{
-  background:url(../images/surf-detail-image.jpg);
+  background:url(../images/surf-detail-image.jpg) right;
   height: 100%;
 }
 
@@ -637,7 +637,7 @@ footer svg path:hover{
 
 .detail-content p{
   font-family: Roboto,Helvetica;
-  color: white;
+  color:rgb(116, 116, 116);
   font-weight: 300;
   letter-spacing: 0.05em;
   font-size:1em;
