@@ -349,11 +349,6 @@ content: "\2014 \2009";
   height: 100%;
   overflow-y:visible;
   margin: 0 auto;
-
-  -webkit-box-shadow: -78px -1px 85px -11px rgba(0,0,0,0.1);
-  -moz-box-shadow: -78px -1px 85px -11px rgba(0,0,0,0.1);
-  box-shadow: -78px -1px 85px -11px rgba(0,0,0,0.1);
-
 }
 
 .testimonial-image img{
@@ -712,7 +707,7 @@ padding:1em 0;
 
 .testimonial-container{
   width:100%;
-  height: 80%;
+  height: 100%;
   background-color:#4CC8D8;
 }
 
@@ -727,8 +722,9 @@ padding:1em 0;
 }
 
 .testimonial-text{
+  margin-top:3em;
   width: 100%;
-
+  height: 80%;
 }
 
 .testimonial-text blockquote{
@@ -765,7 +761,7 @@ content: "\2014 \2009";
 
 .testimonial-image{
   height: 50%;
-  width: 50%;
+  width: 60%;
   overflow: hidden;
   margin: 0 auto;
 
