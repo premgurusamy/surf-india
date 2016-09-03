@@ -666,6 +666,9 @@ padding:1em 0;
 
 }
 
+.video-list{
+
+}
 .main-video{
   width: 100%;
 }
@@ -718,13 +721,13 @@ padding:1em 0;
   height: 100%;
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   align-content: center;
 }
 
 .testimonial-text{
-  width: 70%;
+  width: 100%;
 
 }
 
@@ -761,20 +764,15 @@ content: "\2014 \2009";
 }
 
 .testimonial-image{
-  width: 35%;
-  height: 100%;
-  overflow-y:visible;
+  height: 50%;
+  width: 50%;
+  overflow: hidden;
   margin: 0 auto;
-
-  -webkit-box-shadow: -78px -1px 85px -11px rgba(0,0,0,0.1);
-  -moz-box-shadow: -78px -1px 85px -11px rgba(0,0,0,0.1);
-  box-shadow: -78px -1px 85px -11px rgba(0,0,0,0.1);
 
 }
 
 .testimonial-image img{
-
-  padding:0 3em;
+  padding:0 1em;
 }
 
 /****--_____NewsLetter Designs-----_______*******
