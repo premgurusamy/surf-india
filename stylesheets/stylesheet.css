@@ -610,7 +610,7 @@ footer svg path:hover{
   margin-bottom: 1em;
 }
 
-/*******######Detail Section Design #####*******
+/*******###### Mobile Responsive Detail Section Design #####*******
 ))))))))))))))))))))))))))))))))))))))))))))))))****/
 
 .detail-section{
@@ -620,7 +620,6 @@ footer svg path:hover{
 
 .detail-content{
   width:80%;
-
   padding-top:15em;
   padding-left: 2em;
 }
@@ -642,6 +641,258 @@ footer svg path:hover{
   letter-spacing: 0.05em;
   font-size:1em;
 
+}
+
+/*******----________
+Mobile Responsive Recent Videos Designs
+-----______********/
+
+.recent-videos-container{
+  margin: 0 auto;
+  margin-bottom: 5em;
+  height: 100%;
+}
+
+.recent-videos-container h2{
+font-weight: 300;
+text-align: center;
+color: #7E7E7E;
+letter-spacing: 0.1;
+width: 200px;
+border-bottom:1px solid #7e7e7e;
+margin: 0 auto;
+margin-bottom: 1em;
+padding:1em 0;
+
+}
+
+.video-list{
+
+}
+.main-video{
+  width: 100%;
+}
+.side-videos{
+  margin-top:2em;
+  margin-bottom: 2em;
+  width: 100%
+
+}
+.video-wrapper{
+  position: relative;
+  height: 0;
+  margin-top:1em;
+  max-width: 100%;
+}
+
+.video-wrapper iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+}
+
+.all-videos-button{
+  background-color:#4CC8D8;
+  color: white;
+  padding:1em 1.5em;
+  font-weight: 300;
+}
+
+.recent-videos-container h5{
+  padding-top:0.5em;
+  text-align: center;
+  clear: both
+}
+
+
+/******-_____-----Testimonial Design ------_____
+#######_______---------------------########-----***/
+
+.testimonial-container{
+  width:100%;
+  height: 80%;
+  background-color:#4CC8D8;
+}
+
+.testimonial-content{
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+.testimonial-text{
+  width: 70%;
+
+}
+
+.testimonial-text blockquote{
+  font-family: Georgia, serif,Helvetica;
+  font-size: 1em;
+  font-style: italic;
+  margin: 0.25em 0;
+  padding: 0.25em 2em;
+  line-height: 1.5;
+  position: relative;
+  color: white;
+}
+
+.testimonial-text blockquote:before {
+display: block;
+content: open-quote;
+font-size: 80px;
+position: absolute;
+left: -20px;
+top: -25px;
+color: white;
+}
+
+.testimonial-text blockquote cite {
+color: white;
+font-size: 1em;
+display: block;
+margin-top: 2em;
+}
+
+.testimonial-text blockquote cite:before {
+content: "\2014 \2009";
+}
+
+.testimonial-image{
+  width: 35%;
+  height: 100%;
+  overflow-y:visible;
+  margin: 0 auto;
+
+  -webkit-box-shadow: -78px -1px 85px -11px rgba(0,0,0,0.1);
+  -moz-box-shadow: -78px -1px 85px -11px rgba(0,0,0,0.1);
+  box-shadow: -78px -1px 85px -11px rgba(0,0,0,0.1);
+
+}
+
+.testimonial-image img{
+
+  padding:0 3em;
+}
+
+/****--_____NewsLetter Designs-----_______*******
+#########################################*/
+.newsletter-container{
+  background:url(../images/newsletter-bg.png) no-repeat center;
+  height: 70%;
+  margin-top:5em;
+}
+
+.newsletter-content{
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+
+}
+.stay-touch{
+  align-content: center;
+  flex-grow: 1;
+}
+
+.newsletter-book-1{
+  flex-grow: 1;
+  height: 100%;
+}
+
+.newsletter-book-2{
+  flex-grow: 2;
+}
+
+
+#newsletter{
+  flex-grow: 1;
+  flex-basis: 150px;
+}
+
+.newsletter-content h4{
+  font-size:2em;
+  margin-bottom:1em;
+  line-height: 0.1em;
+}
+
+.newsletter-content input{
+  width: 200px;
+  height: 30px;
+  color: rgba(164, 164, 164, 0.8);
+  border: 1px solid rgb(189, 189, 189);
+  background-color: white;
+}
+
+.newsletter-book-1{
+
+
+}
+.newsletter-content p{
+  font-size:.9em;
+  margin-top:1em;
+}
+
+.subscribe-button{
+  background-color: #F21CA8;
+  padding:1em 2em;
+  color: white;
+  font-size: 1.2em;
+}
+
+
+/******-______-----Footer Designs-----_____##
+############################################*****/
+
+footer{
+  background-color: #090404;
+  clear: both;
+  overflow: auto;
+}
+.footer-container{
+  width: 80%;
+  margin: 0 auto;
+  padding:3em 0;
+}
+.footer-nav{
+  float: left;
+}
+footer svg path{
+  fill:white;
+
+}
+
+footer svg path:hover{
+  fill:#F21CA8;
+}
+.footer-social{
+  width:200px;
+  float: right;
+}
+.footer-social a{
+  margin-left: 2em;
+}
+
+.footer-social svg{
+  width: 25px;
+  height: 25px;
+}
+
+.footer-nav a{
+  color: white;
+  letter-spacing: 0.05em;
+  font-weight: 300;
+  display: inline-block;
+  margin-left: 2em;
+}
+
+.footer-nav a:hover{
+  color:#f21ca8;
 }
 
 }
