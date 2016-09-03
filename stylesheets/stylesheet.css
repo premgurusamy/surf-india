@@ -775,7 +775,7 @@ content: "\2014 \2009";
 #########################################*/
 .newsletter-container{
   background:url(../images/newsletter-bg.png) no-repeat center;
-  height: 60%;
+  height: 80%;
   margin-top:5em;
 }
 
@@ -846,7 +846,6 @@ footer{
   margin: 0 auto;
 }
 .footer-nav{
-
 }
 footer svg path{
   fill:white;
@@ -858,15 +857,14 @@ footer svg path:hover{
 }
 .footer-social{
   width:200px;
-  margin-top:2em;
+  margin:2em 0;
 }
 .footer-social a{
-
 }
 
 .footer-social svg{
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
 }
 
 .footer-nav a{
