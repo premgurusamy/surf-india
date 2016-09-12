@@ -475,7 +475,7 @@ footer svg path:hover{
 *************************************/
 @media only screen
   and (min-width: 320px)
-  and (max-width: 480px) {
+  and (max-width: 600px) {
 
 	header {
     height: 100%;
@@ -484,7 +484,7 @@ footer svg path:hover{
 	  background-color:#2CBED1;
 }
 
-    .intro-content {
+  .intro-content {
         margin:0 auto;
         width:340px;
         padding-top: 8em;
@@ -878,5 +878,417 @@ footer svg path:hover{
 .footer-nav a:hover{
   color:#f21ca8;
 }
+
+}
+
+/**************** 640x360 Moto g3 Mobile Rotate Responsive******
+*************************************/
+@media only screen
+  and (min-width: 600px)
+  and (max-width: 700px) {
+
+	header {
+    height: 100%;
+    background: url(../images/header-intro.jpg);
+    background-size:cover;
+	  background-color:#2CBED1;
+}
+
+.intro-content {
+      margin:0 auto;
+      width:340px;
+      padding-top: 3em;
+  }
+
+.intro-content h1 {
+  font-size:1.8em;
+  padding: 0.5em 0 0.5em 0.2em;
+  font-family: "Arial Rounded MT Bold",Helvetica;
+  color: white;
+  letter-spacing: 0.05em;
+  margin-bottom:0em;
+}
+.headline{
+background-color:#ED38AE;
+padding:0.5em 1em 0.5em 0.3em;
+border-radius: 5em;
+
+}
+.intro-content p {
+  text-align: left;
+  font-size:.8em;
+  color: white;
+  line-height: 1.3em;
+  letter-spacing: 0.05em;
+  width:70%;
+  margin-left:1em;
+  font-family: Montserrat;
+  font-weight: 300;
+}
+
+/*What we offer-content*/
+
+/*******-------640x360 Rotate Moto g3 What we offer Area Styles ------*****/
+.what-we-offer-area{
+width:80%;
+margin: 0 auto;
+margin-bottom: 5em;
+}
+
+.what-we-offer-area h2{
+font-weight: 300;
+text-align: center;
+color: #7E7E7E;
+letter-spacing: 0.1;
+
+border-bottom:1px solid #7e7e7e;
+margin: 0 auto;
+margin-bottom: 1em;
+padding:1em 0;
+}
+.whole-offer{
+display:block;
+/*display: flex;Mobile Design Should change flex to another*/
+margin: 0 auto;
+
+}
+.offer-list{
+width:290px;
+filter: grayscale(100%);
+-webkit-filter:grayscale(100%);
+height: 380px;
+background-color: white;
+-webkit-box-shadow: 0px 2px 15px 5px rgba(0, 0, 0, 0.15);
+box-shadow: 0px 2px 15px 5px rgba(0, 0, 0, 0.15);
+border-radius: 5px;/*offer-img border radius should change*/
+margin-bottom: 5em;
+
+}
+
+.offer-list:hover{
+filter: grayscale(0%);
+-webkit-filter: grayscale(0%);
+transform: scale(1.1);
+-webkit-transition: all 200ms cubic-bezier(0.525, 0.085, 0.075, 1.000);
+ -moz-transition: all 250ms cubic-bezier(0.525, 0.085, 0.075, 1.000);
+   -o-transition: all 250ms cubic-bezier(0.525, 0.085, 0.075, 1.000);
+      transition: all 250ms cubic-bezier(0.525, 0.085, 0.075, 1.000);
+}
+.offer-img{
+
+width:100%;
+
+overflow: hidden;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+.offer-content{
+width:90%;
+margin: 0 auto;
+color: #626262;
+}
+
+.offer-content h3{
+font-weight: 400;
+}
+
+.offer-content p{
+font-family: helvetica;
+font-weight: 300;
+line-height: 1.3em;
+font-size: 0.9em;
+height: 90px;
+overflow: auto;
+}
+
+.offer-content a{
+
+color: white;
+font-size: 1em;
+font-weight: 500;
+text-align: center;
+padding-bottom:1em;
+background-color: #2CBED1;
+}
+
+.offer-content h5{
+text-align: center;
+margin-bottom: 1em;
+}
+
+/*******######640x360 Rotate Moto g3 Mobile Responsive Detail Section Design #####*******
+))))))))))))))))))))))))))))))))))))))))))))))))****/
+
+.detail-section{
+background:url(../images/surf-detail-image.jpg) right;
+height: 100%;
+}
+
+.detail-content{
+width:80%;
+padding-top:15em;
+padding-left: 2em;
+}
+
+.detail-content h2{
+
+color:white;
+font-weight: 400;
+font-family: "Slabo 27px";
+letter-spacing: 0.05em;
+font-size: 2.5em;
+margin-bottom: 0.5em;
+}
+
+.detail-content p{
+font-family: Roboto,Helvetica;
+color:rgb(116, 116, 116);
+font-weight: 300;
+letter-spacing: 0.05em;
+font-size:1em;
+
+}
+
+/*******----________ 640x360 Rotate Moto g3
+Mobile Responsive Recent Videos Designs
+-----______********/
+
+.recent-videos-container{
+margin: 0 auto;
+margin-bottom: 5em;
+height: 750px;
+}
+
+.recent-videos-container h2{
+font-weight: 300;
+text-align: center;
+color: #7E7E7E;
+letter-spacing: 0.1;
+width: 200px;
+border-bottom:1px solid #7e7e7e;
+margin: 0 auto;
+margin-bottom: 1em;
+padding:1em 0;
+
+}
+
+.video-list{
+
+}
+.main-video{
+width: 100%;
+}
+.side-videos{
+margin-top:2em;
+margin-bottom: 2em;
+width: 100%
+
+}
+.video-wrapper{
+position: relative;
+height: 0;
+margin-top:1em;
+max-width: 100%;
+}
+
+.video-wrapper iframe{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%
+}
+
+.all-videos-button{
+background-color:#4CC8D8;
+color: white;
+padding:1em 1.5em;
+font-weight: 300;
+}
+
+.recent-videos-container h5{
+padding-top:1em;
+text-align: center;
+clear: both
+}
+
+
+/******-_____-----640x360 Rotate Moto g3 Testimonial Design ------_____
+#######_______---------------------########-----***/
+
+.testimonial-container{
+width:100%;
+height: 100%;
+background-color:#4CC8D8;
+}
+
+.testimonial-content{
+width: 80%;
+height: 100%;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+align-content: center;
+}
+
+.testimonial-text{
+margin-top:3em;
+width: 100%;
+height: 80%;
+}
+
+.testimonial-text blockquote{
+font-family: Georgia, serif,Helvetica;
+font-size: 1em;
+font-style: italic;
+margin: 0.25em 0;
+padding: 0.25em 2em;
+line-height: 1.5;
+position: relative;
+color: white;
+}
+
+.testimonial-text blockquote:before {
+display: block;
+content: open-quote;
+font-size: 80px;
+position: absolute;
+left: -20px;
+top: -25px;
+color: white;
+}
+
+.testimonial-text blockquote cite {
+color: white;
+font-size: 1em;
+display: block;
+margin-top: 2em;
+}
+
+.testimonial-text blockquote cite:before {
+content: "\2014 \2009";
+}
+
+.testimonial-image{
+height: 50%;
+width: 60%;
+overflow: hidden;
+margin: 0 auto;
+
+}
+
+.testimonial-image img{
+padding:0 1em;
+}
+
+/****--_____640x360 Rotate Moto g3 NewsLetter Designs-----_______*******
+#########################################*/
+.newsletter-container{
+background:url(../images/newsletter-bg.png) no-repeat center;
+height: 80%;
+margin-top:5em;
+}
+
+.newsletter-content{
+display: flex;
+height: 100%;
+}
+.stay-touch{
+align-items: center;
+align-content: center;
+}
+
+.newsletter-book-1{
+display: none;
+height: 100%;
+}
+
+.newsletter-book-2{
+display: none;
+}
+
+
+#newsletter{
+flex-grow: 1;
+flex-basis: 200px;
+}
+
+.newsletter-content h4{
+font-size:2em;
+margin-bottom:1em;
+line-height: 0.1em;
+}
+
+.newsletter-content input{
+width: 200px;
+height: 40px;
+color: rgba(164, 164, 164, 0.8);
+border: 1px solid rgb(189, 189, 189);
+background-color: white;
+}
+
+.newsletter-book-1{
+
+
+}
+.newsletter-content p{
+font-size:.9em;
+margin-top:1em;
+}
+
+.subscribe-button{
+background-color: #F21CA8;
+padding:1em 2em;
+color: white;
+font-size: 1.2em;
+}
+
+
+/******-______-----640x360 Rotate Moto g3 Mobile Responsive Footer Designs-----_____##
+############################################*****/
+
+footer{
+background-color: #090410;
+clear: both;
+}
+.footer-container{
+width: 50%;
+margin: 0 auto;
+}
+.footer-nav{
+}
+footer svg path{
+fill:white;
+
+}
+
+footer svg path:hover{
+fill:#F21CA8;
+}
+.footer-social{
+width:200px;
+margin:2em 0;
+}
+.footer-social a{
+}
+
+.footer-social svg{
+width: 35px;
+height: 35px;
+}
+
+.footer-nav a{
+color: white;
+letter-spacing: 0.05em;
+font-weight: 300;
+display: block;
+padding-top: 1em;
+}
+
+.footer-nav a:hover{
+color:#f21ca8;
+}
+
 
 }
